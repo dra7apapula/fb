@@ -1,9 +1,13 @@
-facebook-bruteforce/
-├── fb_cracker.py          # Main attack script
-├── requirements.txt       # Dependencies
-├── proxies.txt           # Proxy list (gitignored)
-├── targets.txt           # Target emails (gitignored)
-├── config.json           # Attack config
-├── README.md            # Pentest documentation
-├── .gitignore
-└── run.sh               # One-click launch
+## 3. GitHub Upload Commands
+```bash
+# Create repo locally
+mkdir facebook-bruteforce && cd facebook-bruteforce
+# Paste all files above
+
+# Init & push
+git init
+git add .
+git commit -m "Initial Facebook bruteforce pentest tool"
+git branch -M main
+gh repo create facebook-bruteforce --public --push  # Or your GitHub username
+# Or: git remote add origin https://github.com/YOURUSERNAME/facebook-bruteforce.git && git push -u origin main
