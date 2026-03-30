@@ -1,0 +1,11 @@
+# Facebook Login Bruteforce Pentest Tool
+
+Production-ready tool for authorized Facebook credential testing.
+
+## Quick Start
+```bash
+chmod +x run.sh
+echo "target@domain.com" > targets.txt
+echo "password123" > passwords.txt  
+echo "http://proxy:port" > proxies.txt
+./run.sh
